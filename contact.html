@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Information</title>
+</head>
+
+<body>
+  <h2>Contact Information</h2>
+  <ul>
+    <li>zhiqingqu@ufl.edu</li>
+  </ul>
+  <hr>
+  <form action="mailto:zhiqingqu@ufl.edu" method="post" enctype="text/plain">
+    <!-- Create a form -->
+    <!-- "post" means to transfer the information below to the place you want -->
+    <!-- "enctype" means our website is encoded in "utf-8" -->
+    <label> Your name: </label>
+    <!-- Create text -->
+    <input type="text" name="yourName" value="">
+    <!-- Prompt you to write words and inputs -->
+    <br>
+    <label> Your Email: </label>
+    <input type="email" name="yourEmail" value="">
+    <br>
+    <label> Your message </label>
+    <br>
+    <textarea name="yourMessage" rows="10" cols="30"> </textarea>
+    <br>
+    <input type="submit">
+    <br>
+  </form>
+</body>
+</html>
